@@ -1,16 +1,9 @@
-a {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-/*Header*/
 
 .logo {
   width: 183px;
@@ -22,16 +15,13 @@ a {
   height: 35px;
 }
 
-.logo img {
-  width: 100%;
-  height: 100%;
-}
-
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
 }
+
+/*Header*/
 
 .header {
   position: relative;
@@ -66,6 +56,11 @@ a {
   font-weight: 400;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -73,11 +68,6 @@ a {
   z-index: 2;
   width: 765px;
   height: 608px;
-}
-
-.header__main-illustration img {
-  width: 100%;
-  height: 100%;
 }
 
 .header__square-pic {
@@ -156,6 +146,7 @@ a {
   font-size: 60px;
   font-weight: 700;
   text-align: center;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -166,6 +157,7 @@ a {
   font-size: 24px;
   font-weight: 400;
   text-align: center;
+  z-index: 1;
 }
 
 .table {
@@ -185,6 +177,7 @@ a {
 
 .table__heading {
   margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
@@ -192,6 +185,7 @@ a {
 
 .table__text {
   margin: 20px 0 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
@@ -234,6 +228,8 @@ a {
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 /*Kaufman*/
@@ -279,10 +275,6 @@ a {
   color: #fff;
 }
 
-.footer a {
-  color: #fff;
-}
-
 .footer__columns {
   display: flex;
   justify-content: space-between;
@@ -307,7 +299,8 @@ a {
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
@@ -319,6 +312,12 @@ a {
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  list-style-type: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer__social-icon {
