@@ -9,3 +9,8 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
+.feynman__link:hover {
+  color: blue;
+  transition: 0.5s ease-in-out;
+}
